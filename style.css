@@ -24,15 +24,25 @@ input {
 }
 
 /* Buttons */
+
 .button {
-  padding: 0.25em 0.5em;
   border: none;
   border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   background: #456e5b;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+}
+
+.button--add {
+  padding: 1em 1em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+.button-review {
+  padding: 0.25em 0.5em;
+  border: 3px solid black;
+  background: #456e5b;
 }
 
 /* Site title and top navigation */
@@ -62,6 +72,12 @@ input {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
+.review--positive {
+  border-left: 4px solid #2bd184;
+}
+.review--negative {
+  border-left: 4px solid #d1542b;
+}
 .review__author {
   font-size: 12px;
   font-weight: 700;
